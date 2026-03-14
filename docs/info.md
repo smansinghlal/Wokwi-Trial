@@ -9,11 +9,23 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+My project has switches 1 and 2 connected to an and gate, and switch 7 is connected to a not gate. The output of the and gate goes to out1 and the output of the not gate goes to out6
 
 ## How to test
 
-Explain how to use your project
+for the inverter (switch 7) 
+|  input   |  output  |
+|----------|----------|
+| 00000000 | xxxxxxx1 |
+| 00000001 | xxxxxxx0 |
+
+and for the and gate 
+|  input   |  output  |
+|----------|----------|
+| 00000010 | xxxxxx00 |
+| 00000011 | xxxxxx01 |
+| 00000000 | xxxxxx00 |
+| 00000001 | xxxxxx00 |
 
 ## External hardware
 
